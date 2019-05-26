@@ -1,0 +1,14 @@
+openapi: 3.0.0
+info:
+  title: express-es2017-starter
+  version: 0.0.0
+  description: express-es2017-starter
+servers:
+  - url: http://localhost:8080/
+    description: Local development server
+paths:
+  /:
+    get:
+      responses:
+        200:
+          description: OK

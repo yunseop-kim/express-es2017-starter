@@ -8,7 +8,7 @@
     "request": "launch",
     "name": "Launch Program",
     "program": "${workspaceFolder}/src/index.js",
-    "outFiles": ["${workspaceRoot}/.compiled/**/*.js"],
+    "outFiles": ["${workspaceRoot}/dist/**/*.js"],
     "sourceMaps": true
   }]
 }
